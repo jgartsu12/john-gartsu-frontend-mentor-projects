@@ -74,9 +74,39 @@ body {
 }
 
 /* divider */
-hr.solid {
-    /* color: hsl(215, 32%, 27%); */
-    border-top: 3px solid hsl(215, 32%, 27%)
+hr {
+    color: hsl(215, 32%, 27%);
+    /* border-top: 3px solid hsl(215, 32%, 27%) */
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-footer {
+    display: flex;
+}
+
+.card-footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.card-footer-creator {
+    color: hsl(215, 51%, 70%);
+}
+
+.card-footer-creator-name {
+    color: #fff;
+}
+
+.card-footer img {
+    width: 60px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    margin-left: -129px;
 }
 
 /* .attribution { 
